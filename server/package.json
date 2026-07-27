@@ -1,0 +1,35 @@
+{
+  "name": "smart-hospital-server",
+  "version": "1.0.0",
+  "description": "An AI-powered smart hospital management system",
+  "homepage": "https://github.com/rayyan800/smart-hospital#readme",
+  "bugs": {
+    "url": "https://github.com/rayyan800/smart-hospital/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyan800/smart-hospital.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.8.0",
+    "morgan": "^1.11.0",
+    "nodemon": "^3.1.14",
+    "zod": "^4.4.3"
+  }
+}
